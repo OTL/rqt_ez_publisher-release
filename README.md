@@ -1,3 +1,26 @@
+## rqt_ez_publisher (melodic) - 0.4.0-1
+
+The packages in the `rqt_ez_publisher` repository were released into the `melodic` distro by running `/usr/local/bin/bloom-release rqt_ez_publisher --track melodic --rosdistro melodic` on `Tue, 25 Jun 2019 06:10:03 -0000`
+
+The `rqt_ez_publisher` package was released.
+
+Version of package(s) in repository `rqt_ez_publisher`:
+
+- upstream repository: https://github.com/OTL/rqt_ez_publisher.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.4.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.8.0`
+- catkin_pkg version: `0.4.12`
+- rosdep version: `0.15.1`
+- rosdistro version: `0.7.4`
+- vcstools version: `0.1.40`
+
+
 ## rqt_ez_publisher (kinetic) - 0.5.0-0
 
 The packages in the `rqt_ez_publisher` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release rqt_ez_publisher --track kinetic --rosdistro kinetic` on `Sat, 03 Mar 2018 03:20:26 -0000`
