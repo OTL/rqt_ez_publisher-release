@@ -1,0 +1,12 @@
+Source: ros-melodic-rqt-ez-publisher
+Section: misc
+Priority: extra
+Maintainer: Takashi Ogura <t.ogura@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python-catkin-pkg, ros-melodic-catkin, ros-melodic-rostest, ros-melodic-sensor-msgs
+Homepage: http://wiki.ros.org/rqt_ez_publisher
+Standards-Version: 3.9.2
+
+Package: ros-melodic-rqt-ez-publisher
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-geometry-msgs, ros-melodic-rospy, ros-melodic-rqt-gui, ros-melodic-rqt-gui-py, ros-melodic-rqt-py-common, ros-melodic-tf, ros-melodic-tf2-msgs
+Description: The rqt_ez_publisher package
