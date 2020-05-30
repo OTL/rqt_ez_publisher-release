@@ -1,3 +1,26 @@
+## rqt_ez_publisher (noetic) - 0.6.1-1
+
+The packages in the `rqt_ez_publisher` repository were released into the `noetic` distro by running `/usr/bin/bloom-release rqt_ez_publisher --track noetic --rosdistro noetic --new-track` on `Sat, 30 May 2020 02:23:35 -0000`
+
+The `rqt_ez_publisher` package was released.
+
+Version of package(s) in repository `rqt_ez_publisher`:
+
+- upstream repository: https://github.com/OTL/rqt_ez_publisher.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.6.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.7`
+- catkin_pkg version: `0.4.20`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.2`
+- vcstools version: `0.1.42`
+
+
 ## rqt_ez_publisher (melodic) - 0.5.0-1
 
 The packages in the `rqt_ez_publisher` repository were released into the `melodic` distro by running `/usr/local/bin/bloom-release rqt_ez_publisher --track melodic --rosdistro melodic` on `Thu, 27 Jun 2019 03:36:33 -0000`
