@@ -1,6 +1,6 @@
 from python_qt_binding import QtCore
 from python_qt_binding import QtWidgets
-import value_widget
+from . import value_widget
 
 
 class IntValueWidget(value_widget.ValueWidget):
@@ -16,7 +16,7 @@ class IntValueWidget(value_widget.ValueWidget):
         self._lcd.display(value)
         self.publish_value(value)
 
-    def setup_ui(self, name, max_value=100000, min_value=-100000,
+    def setup_ui(self, name, max_value=1000000, min_value=-1000000,
                  default_max_value=100, default_min_value=-100,
                  initial_value=0):
         self._min_spin_box = QtWidgets.QSpinBox()
