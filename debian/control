@@ -1,0 +1,12 @@
+Source: ros-noetic-rqt-ez-publisher
+Section: misc
+Priority: optional
+Maintainer: Takashi Ogura <t.ogura@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python3-catkin-pkg, ros-noetic-catkin, ros-noetic-rostest, ros-noetic-sensor-msgs
+Homepage: http://wiki.ros.org/rqt_ez_publisher
+Standards-Version: 3.9.2
+
+Package: ros-noetic-rqt-ez-publisher
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-geometry-msgs, ros-noetic-rospy, ros-noetic-rqt-gui, ros-noetic-rqt-gui-py, ros-noetic-rqt-py-common, ros-noetic-tf, ros-noetic-tf2-msgs
+Description: The rqt_ez_publisher package
